@@ -1,0 +1,75 @@
+#+Title: RPG Prototype README
+
+
+* Overview
+A basic RPG that has players move through rooms, fight monsters, collect loot, earn exp, and fight a final boss.
+
+
+** Goals
+1) Confidence :: prove to myself and those around me that I can complete a challanging and multi-faceted project on a strict timeline
+2) Learning :: deepen my understanding of the C# programming language and the Godot game engine
+3) Expression :: take the opportunity to learn and practice visual art
+4) Career :: have a project that I can showcase on my resume and as part of a portfolio of work
+5) Growth :: provide a space for self reflection so that I may continue to work on becoming the person I wish to be
+
+
+** Requirments
+1) Has a full gameplay loop on the micro and macro level
+   + Micro :: players will fight enemies from a top down perspective in real time
+   + Macro :: ultimate goal of the player is to navigate the dungeon succsessfully and defeat the final boss
+2) Has a UI that clearly displays all information the player needs
+   + Health :: should be displayed as a bar with accompying numbers following traditional UI principles
+   + Map :: should have a map that clearly displays the near by rooms with some indication that the room has been cleared or not
+3) Has at least two (2) types of enemies including the final boss
+   + Basic Enemy :: should have relativly low stats; low stakes, low reward enemies
+   + "Champion" Enemy :: more difficult enemy with high stats; high stakes, high reward enemy
+   + Final Boss :: a unique enemy that fights using the same methods as the player(?)
+4) Has a multi-room dungeon that players must move through
+   + Progression :: players must defeat the enemies in the current room to progress to new rooms
+   + Backtracking :: players may leave a room to go to a previously cleared room at any time but enemies will be reset upon re-entering an uncleared room
+   + Navigating :: rooms should have subtle indicators of the direction the player is supposed to go to progress to the final boss
+
+
+** Questions
+1) What is the overall aesthetic/theme of the game (non-critical)
+2) Will the players attacks be ranged or melee (critical)
+3) Will their be puzzles of some kind (non-critical)
+
+
+** Tasks
+
+*** TODO Create Entity base class
+*** TODO Create Map controller class
+*** TODO Create Player sprites
+*** TODO Create Input controller class
+*** TODO Create custom Input actions
+*** TODO Create Enemy Sprites
+*** TODO Create UI component to display player health
+*** TODO Create UI component for the mini-map
+*** TODO Create UI component for the Main Menu
+*** TODO Create UI component for player death state
+*** TODO Create UI component for player victory state
+*** TODO Create UI component for the pause menu
+*** TODO Create map tile sprites
+*** TODO Design basic dungeon layout
+*** TODO Paint dungeon rooms
+*** TODO Place Enemies in rooms
+*** TODO Write damage signals
+*** TODO Write healing signals
+*** TODO Create potion sprite
+*** TODO Create Potion Node
+*** TODO Create Player Node
+*** TODO Create Basic Enemy Node
+*** TODO Create "Champion" Enemy Node
+*** TODO Create Boss sprites
+*** TODO Create Boss Node
+*** TODO Write death signals
+*** TODO Write pause signals
+*** TODO Write initialization signals
+*** TODO Add collision to player
+*** TODO add collision to enemies
+*** TODO add collision to Boss
+*** TODO add collision to walls
+*** TODO add door unlock signals
+
+
